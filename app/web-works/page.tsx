@@ -2,7 +2,6 @@ import React from 'react';
 import SubFirstsView from '../components/SubFirstView';
 import Container from '../components/Container';
 import { Card, CardContent, CardFooter, CardHeader } from '../components/Card';
-import Link from 'next/link';
 import Image from 'next/image';
 import Button from '../components/Button';
 import Headings from '../components/Headings';

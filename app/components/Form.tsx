@@ -1,8 +1,7 @@
 import React from 'react';
 
-interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {}
 
-const Input: React.FC<InputProps> = ({ ...rest }) => {
+const Input: React.FC<React.InputHTMLAttributes<HTMLInputElement>> = ({ ...rest }) => {
     return (
         <input
             className="mt-1 block w-full p-4 border border-gray-100 bg-black rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
@@ -23,9 +22,8 @@ const Label: React.FC<LabelProps> = ({ text, ...rest }) => {
     );
 };
 
-interface TextAreaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {}
 
-const TextArea: React.FC<TextAreaProps> = ({ ...rest }) => {
+const TextArea: React.FC<React.TextareaHTMLAttributes<HTMLTextAreaElement>> = ({ ...rest }) => {
     return (
         <textarea
             className="mt-1 block w-full p-4 border border-gray-100 bg-black rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"

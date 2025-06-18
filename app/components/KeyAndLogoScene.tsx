@@ -156,11 +156,6 @@ function KeyAndLogo({ onFinished }: { onFinished: () => void }) {
   const explosionFrameCount = useRef(0);
   const rotateStartTime = useRef(0); // 鍵の回転アニメーションの開始時刻を記録
 
-  const animationFinished = useRef(false);
-
-  const [switchToNewImage, setSwitchToNewImage] = useState(false);
-  const newGeo = useParticleGeometry('/logo.png', 256, 256, CONFIG.logoScale);
-
 
 
   useEffect(() => {
