@@ -138,16 +138,16 @@ function KeyAndLogo({ onFinished }: { onFinished: () => void }) {
 
   // Refs for particle physics data
   const velocities = useRef<THREE.Vector3[]>([]);
-  const originalPositions = useRef<Float32Array>();
+  const originalPositions = useRef<Float32Array>([]);
   const floatingPhase = useRef<number[]>([]);
   const floatingAmp = useRef<THREE.Vector3[]>([]);
-  const postExplosionAnchors = useRef<Float32Array>();
+  const postExplosionAnchors = useRef<Float32Array>([]);
 
   const keyVelocities = useRef<THREE.Vector3[]>([]);
-  const keyOriginalPositions = useRef<Float32Array>();
+  const keyOriginalPositions = useRef<Float32Array>([]);
   const keyFloatingPhase = useRef<number[]>([]);
   const keyFloatingAmp = useRef<THREE.Vector3[]>([]);
-  const keyPostExplosionAnchors = useRef<Float32Array>();
+  const keyPostExplosionAnchors = useRef<Float32Array>([]);
 
   // Refs for timing and progress
   const timeRef = useRef(0);
