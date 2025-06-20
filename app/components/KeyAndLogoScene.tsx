@@ -138,16 +138,16 @@ function KeyAndLogo({ onFinished }: { onFinished: () => void }) {
 
   // Refs for particle physics data
   const velocities = useRef<THREE.Vector3[]>([]);
-  const originalPositions = useRef<Float32Array>([]);
+  const originalPositions = useRef<Float32Array | null>(null);
   const floatingPhase = useRef<number[]>([]);
   const floatingAmp = useRef<THREE.Vector3[]>([]);
-  const postExplosionAnchors = useRef<Float32Array>([]);
+  const postExplosionAnchors = useRef<Float32Array | null>(null);
 
   const keyVelocities = useRef<THREE.Vector3[]>([]);
-  const keyOriginalPositions = useRef<Float32Array>([]);
+  const keyOriginalPositions = useRef<Float32Array | null>(null);
   const keyFloatingPhase = useRef<number[]>([]);
   const keyFloatingAmp = useRef<THREE.Vector3[]>([]);
-  const keyPostExplosionAnchors = useRef<Float32Array>([]);
+  const keyPostExplosionAnchors = useRef<Float32Array | null>(null);
 
   // Refs for timing and progress
   const timeRef = useRef(0);
@@ -189,11 +189,11 @@ function KeyAndLogo({ onFinished }: { onFinished: () => void }) {
   const updateParticles = (
     points: THREE.Points,
     vels: THREE.Vector3[],
-    original: Float32Array,
+    original: Float32Array | null,
     phase: number[],
     amp: THREE.Vector3[],
     time: number,
-    postExplosionAnchorArray?: Float32Array
+    postExplosionAnchorArray?: Float32Array | null
   ) => {
     const posAttr = points.geometry.getAttribute('position') as THREE.BufferAttribute;
     for (let i = 0; i < posAttr.count; i++) {
@@ -234,13 +234,15 @@ function KeyAndLogo({ onFinished }: { onFinished: () => void }) {
       }
       else {
         // INITIAL FLOATING
-        const ox = original[i * 3];
-        const oy = original[i * 3 + 1];
-        const oz = original[i * 3 + 2];
-        const dx = amp[i].x * Math.sin(time + phase[i]);
-        const dy = amp[i].y * Math.sin(time + phase[i]);
-        const dz = amp[i].z * Math.sin(time + phase[i]);
-        posAttr.setXYZ(i, ox + dx, oy + dy, oz + dz);
+        if (original) {
+          const ox = original[i * 3];
+          const oy = original[i * 3 + 1];
+          const oz = original[i * 3 + 2];
+          const dx = amp[i].x * Math.sin(time + phase[i]);
+          const dy = amp[i].y * Math.sin(time + phase[i]);
+          const dz = amp[i].z * Math.sin(time + phase[i]);
+          posAttr.setXYZ(i, ox + dx, oy + dy, oz + dz);
+        }
       }
     }
     posAttr.needsUpdate = true;
