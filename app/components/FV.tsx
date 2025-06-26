@@ -2,21 +2,21 @@ import FadeIn from "./fadeIn";
 
 export const FV = () => {
   return (
-    <div className="p-4 pl-12 flex items-center relative h-screen">
+    <div className="p-4 md:pl-12 md:flex items-center relative h-screen">
       <div className="p-4">
         <FadeIn delay={300}>
-          <h1 className="text-white text-5xl font-bold">
+          <h1 className="text-white text-2xl md:text-5xl font-bold">
             あらゆるモノ・コトの<br />
             鍵となれ
           </h1>
         </FadeIn>
         <div className="mt-4">
           <FadeIn delay={600}>
-              <p className="text-white text-4xl font-bold">Be the Key to Everything</p>
+              <p className="text-white text-xl md:text-4xl font-bold">Be the Key to Everything</p>
           </FadeIn>
         </div>
       </div>
-      <div className="p-4 text-lg mt-24">
+      <div className="p-4 text-lg md:mt-24">
         <FadeIn delay={1000}>
           <p className="text-white">
             あらゆる物事には、それを動かす「鍵」となるピースがある。<br />

@@ -4,7 +4,7 @@ import FadeIn from './fadeIn';
 
 const MissionSection: React.FC = () => {
     return (
-        <div className="p-8 flex flex-col items-center relative">
+        <div className="flex flex-col items-center relative">
             <Headings level={2} className="text-center mb-4">「暮らし・学び・未来をもっと便利に、もっと面白く。」</Headings>
             <FadeIn delay={300}>
                 <p className="text-center max-w-2xl">

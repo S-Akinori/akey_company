@@ -5,8 +5,8 @@ import Headings from "./Headings";
 export const ServiceSection = () => {
   return (
     <div>
-        <Headings level={2} className="text-center">事業紹介</Headings>
-        <div className="p-8 flex justify-center relative gap-4">
+        <Headings level={2} className="text-center mb-4">事業紹介</Headings>
+        <div className="flex justify-center relative flex-col md:flex-row gap-4">
             <div>
                 <Card className="bg-gray-800 h-full">
                     <CardHeader><h3>Web制作事業</h3></CardHeader>
