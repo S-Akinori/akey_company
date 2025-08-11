@@ -1,0 +1,110 @@
+{
+  "services": [
+    {
+      "id": "it",
+      "title": "ITソリューション事業",
+      "description": "Webサイト制作をはじめ、Webシステム、LINEツール開発を行ない課題解決に努めます。",
+      "icon": "Building2",
+      "features": [
+        {
+          "title": "Webサイト制作",
+          "icon": "Code"
+        },
+        {
+          "title": "Webシステム開発",
+          "icon": "Database"
+        },
+        {
+          "title": "LINEツール開発",
+          "icon": "Cloud"
+        }
+      ],
+      "detailDescription": "企業のデジタルトランスフォーメーション（DX）を推進するため、最新の技術を活用したシステム開発から導入支援まで、包括的なITソリューションを提供します。",
+      "services": [
+        "Webアプリケーション開発",
+        "モバイルアプリ開発",
+        "データベース設計・構築",
+        "クラウド移行支援",
+        "システム保守・運用",
+        "ITコンサルティング"
+      ]
+    },
+    {
+      "id": "education",
+      "title": "教育事業",
+      "description": "大学受験サポートをはじめ、次世代に自主的な学習を支援します。",
+      "icon": "GraduationCap",
+      "features": [
+        {
+          "title": "プログラミング教育",
+          "icon": "BookOpen"
+        },
+        {
+          "title": "大学受験サポート",
+          "icon": "Users"
+        },
+        {
+          "title": "オンライン学習プラットフォーム",
+          "icon": "GraduationCap"
+        }
+      ],
+      "detailDescription": "大学受験をはじめ、次世代に必要な多角的な学習を支援します。",
+      "services": [
+        "早稲田大学生が作った巨大サイト",
+        "物理のノウハウが詰まった教材",
+        "自主的な学習を支援"
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "title": "ライフスタイル事業",
+      "description": "豊かな暮らしを実現する商品・サービスで、お客様の日常をサポートします。",
+      "icon": "Heart",
+      "features": [
+        {
+          "title": "多目的洗剤",
+          "icon": "Heart"
+        },
+        {
+          "title": "防災・置き配バッグ",
+          "icon": "Palette"
+        },
+        {
+          "title": "Wi-Fi付きモバイルバッテリー",
+          "icon": "Users"
+        }
+      ],
+      "detailDescription": "他では扱っていない生活が豊かになる日用品を販売しております。",
+      "services": [
+        "ヘルスケアアプリ開発",
+        "フィットネスアプリ",
+        "コミュニティプラットフォーム",
+        "デザインコンサルティング",
+        "ライフスタイル分析",
+        "ウェルネスソリューション"
+      ]
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "ヒアリング",
+      "description": "お客様のニーズを詳しくお聞きします"
+    },
+    {
+      "step": "02",
+      "title": "提案・設計",
+      "description": "最適なソリューションを提案します"
+    },
+    {
+      "step": "03",
+      "title": "開発・実装",
+      "description": "高品質な成果物を提供します"
+    },
+    {
+      "step": "04",
+      "title": "サポート",
+      "description": "継続的なサポートを行います"
+    }
+  ]
+}

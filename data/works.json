@@ -1,0 +1,127 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "結婚式ムービー制作会社HP",
+      "category": "web-works",
+      "client": "LCMアトリエ様",
+      "period": "",
+      "description": "ホームページに加えブログ、EC機能を構築。ユーザーがオンラインでその場で注文ができるように導線を構築しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/images/lcm.png",
+      "challenge": "従来の紙ベースの管理では、リアルタイムでの進捗把握が困難で、品質管理にも課題がありました。",
+      "solution": "クラウドベースの生産管理システムを構築し、IoTセンサーとの連携により、リアルタイムでのデータ収集・分析を実現しました。",
+      "outcome": "生産効率が30%向上し、品質不良率も50%削減されました。また、作業時間の20%短縮により、コスト削減も実現しています。",
+      "url": "https://lcm-atelier.com"
+    },
+    {
+      "id": 2,
+      "title": "ゲーム素材共有サイト Recreators-Camp",
+      "category": "web-works",
+      "client": "個人様",
+      "period": "",
+      "description": "ゲームクリエイターが自由に素材をアップ・ダウンロードできるウェブサイトを制作しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/images/re-creators-camp.png",
+      "challenge": "コロナ禍でオンライン授業の需要が高まる中、既存システムでは機能が不足していました。",
+      "solution": "動画配信、課題管理、成績評価、コミュニケーション機能を統合した包括的なプラットフォームを開発しました。",
+      "outcome": "学習継続率が80%向上し、教員の作業時間も40%削減されました。学生満足度は95%を達成しています。",
+      "url": "https://recreators-camp.com"
+    },
+    {
+      "id": 3,
+      "title": "受験物理SetUp",
+      "category": "education",
+      "client": "弊社",
+      "period": "/images/setup.png",
+      "description": "大学受験を目指す方に物理に特化したブログを運営。オリジナル教材の販売を行なっております。",
+      "technologies": [],
+      "results": ["月間1万PV越え"],
+      "image": "/images/setup.png",
+      "challenge": "健康管理アプリは多数存在するが、継続利用率が低く、実際の健康改善につながらないという課題がありました。",
+      "solution": "AI技術を活用したパーソナライズ機能と、ゲーミフィケーション要素を取り入れたユーザー体験を設計しました。",
+      "outcome": "ダウンロード数10万を突破し、継続利用率70%を達成。ユーザーの85%が健康改善効果を実感しています。",
+      "url": "https://ryebourbon.xsrv.jp"
+    },
+    {
+      "id": 4,
+      "title": "交通事故慰謝料Bot",
+      "category": "line-works",
+      "client": "LEGAL-AD.TECH合同会社",
+      "period": "",
+      "description": "法律事務所向けに交通事故慰謝料を自動計算するシステムを構築しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/images/law-claim.png",
+      "challenge": "既存のECサイトは古いデザインで、ページの読み込みが遅く、ユーザーの離脱率が高い状況でした。",
+      "solution": "モダンなフレームワークを使用してサイトを完全リニューアルし、UX/UIの改善とパフォーマンス最適化を実施しました。",
+      "outcome": "売上が150%向上し、離脱率は30%削減されました。ページ速度も50%改善され、ユーザー体験が大幅に向上しています。",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "title": "社内向け事故報告LINEツール",
+      "category": "line-works",
+      "client": "株式会社ForceWith",
+      "period": "",
+      "description": "社員の事故・トラブル発生時の報告プロセスが非効率であり、ラインで迅速な報告ができるようなシステムを構築しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/images/accident-report.png",
+      "challenge": "従来の研修管理は手作業が多く、進捗把握や効果測定が困難でした。",
+      "solution": "受講者管理から効果測定まで一元管理できるシステムを構築し、自動化により業務効率を向上させました。",
+      "outcome": "研修効率が40%向上し、管理工数は60%削減されました。受講満足度も90%を達成しています。",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "title": "社内向けアンケートシステム",
+      "category": "web-works",
+      "client": "株式会社イードゥービー",
+      "period": "",
+      "description": "社内で満足度調査を行なうアンケートシステムを構築しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/images/cultivate-survey.png",
+      "challenge": "地域コミュニティの参加者が減少し、イベントの告知や情報共有が困難でした。",
+      "solution": "イベント管理、メンバー交流、リアルタイム通知機能を備えたコミュニティプラットフォームを開発しました。",
+      "outcome": "参加者数が300%増加し、イベント開催数も200%増加しました。利用者満足度は95%を達成しています。",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "title": "GoogleフォームとLINE連携システム",
+      "category": "line-works",
+      "client": "株式会社J-hack",
+      "period": "",
+      "description": "Googleフォームでのアンケート結果をLINEで通知するシステムを構築しました。",
+      "technologies": [],
+      "results": [],
+      "image": "/placeholder.svg?height=300&width=400",
+      "challenge": "地域コミュニティの参加者が減少し、イベントの告知や情報共有が困難でした。",
+      "solution": "イベント管理、メンバー交流、リアルタイム通知機能を備えたコミュニティプラットフォームを開発しました。",
+      "outcome": "参加者数が300%増加し、イベント開催数も200%増加しました。利用者満足度は95%を達成しています。",
+      "url": ""
+    }
+  ],
+  "stats": [
+    {
+      "value": "100+",
+      "label": "プロジェクト完了"
+    },
+    {
+      "value": "50+",
+      "label": "クライアント企業"
+    },
+    {
+      "value": "98%",
+      "label": "顧客満足度"
+    },
+    {
+      "value": "4年",
+      "label": "平均継続年数"
+    }
+  ]
+}
