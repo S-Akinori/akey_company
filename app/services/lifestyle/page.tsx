@@ -144,10 +144,10 @@ export default function LifestylePage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">Twin Function</h2>
             <p className="text-lg text-gray-300">Wi-Fi搭載の乾電池式モバイルバッテリー</p>
             <p className="text-lg text-gray-300">いざというときにスマホの充電が切れた。いざというときにスマホの通信制限で連絡が取れない。日常使いはもちろん災害時でも役立つモバイルバッテリーです。</p>
-            <p className="text-lg text-gray-300">8月末より応援購入サービスMakuakeより先行販売を開始！</p>
+            <p className="text-lg text-gray-300">9/22より応援購入サービスMakuakeより先行販売を開始！</p>
             <div className="text-center mt-8">
               <Button asChild size="lg" className="bg-[#D4AF37] hover:bg-[#B8941F] text-black font-semibold">
-                <Link href="https://www.makuake.com/start/project/edit/preview/share/9f6aa3f2d243aa3c38629b65245ef3f7" target="_blank">
+                <Link href="https://www.makuake.com/project/twin-function/" target="_blank">
                   Twin Functionの詳細を見る
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
