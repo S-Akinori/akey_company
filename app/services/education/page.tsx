@@ -6,6 +6,13 @@ import Link from "next/link"
 import { services, getProjectsByCategory } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '教育',
+  description: '私たちの教育サービスは、学生一人ひとりの成長を支援し、実践的なスキルを身につけることを目的としています。 最新の技術と教育手法を取り入れ、学習効果を最大化します。 大学受験のサポートから、専門的なスキルの習得まで、幅広いニーズに対応しています。',
+}
+
 export default function EducationPage() {
   const service = services.services.find((s) => s.id === "education")
   const relatedProjects = getProjectsByCategory("教育")

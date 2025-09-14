@@ -15,6 +15,7 @@ export default function Header() {
     { name: "私たちについて", href: "/about" },
     { name: "事業内容", href: "/services" },
     { name: "実績・事例", href: "/works" },
+    { name: "ブログ", href: "/blog" },
     // { name: "お知らせ", href: "/news" },
   ]
 

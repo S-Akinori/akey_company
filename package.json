@@ -52,6 +52,7 @@
     "expo-gl": "latest",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
+    "microcms-js-sdk": "^3.2.0",
     "next": "15.2.4",
     "next-themes": "^0.4.4",
     "nodemailer": "^7.0.5",
@@ -66,7 +67,7 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "three": "latest",
-    "vaul": "^0.9.6",
+    "vaul": "^1.1.2",
     "zod": "^3.24.1"
   },
   "devDependencies": {

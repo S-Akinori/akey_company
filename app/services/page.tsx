@@ -4,6 +4,13 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { services } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: '事業内容',
+  description: 'ITソリューション・教育・ライフスタイルの3つの事業領域で、 お客様のあらゆるニーズにお応えします。',
+}
+
 
 export default function ServicesPage() {
   return (

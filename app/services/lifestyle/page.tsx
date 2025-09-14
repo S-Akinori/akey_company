@@ -6,6 +6,13 @@ import Link from "next/link"
 import { services, getProjectsByCategory } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'ライフスタイル',
+  description: '身の回りの悩みを初め、現代社会の問題に向き合い、生活が少しでも安全・豊かになるような商品の開発・販売を行ないます。',
+}
+
 export default function LifestylePage() {
   const service = services.services.find((s) => s.id === "lifestyle")
   const relatedProjects = getProjectsByCategory("ライフスタイル")

@@ -5,6 +5,13 @@ import { ExternalLink, Calendar } from "lucide-react"
 import Link from "next/link"
 import { works } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: '実績・事例',
+  description: 'これまでに手がけたプロジェクトの一部をご紹介します。お客様の課題解決に向けた取り組みと成果をご覧ください。',
+}
+
 
 export default function WorksPage() {
   const getCategoryIcon = (category: string) => {

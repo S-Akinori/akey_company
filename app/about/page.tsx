@@ -4,6 +4,12 @@ import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { company } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: '私たちについて',
+  description: '株式会社A-株式会社A-Keyは、お客様の可能性を最大限に引き出し、 未来への扉を開く鍵となることを使命としています。',
+}
 
 export default function AboutPage() {
   return (
@@ -13,7 +19,7 @@ export default function AboutPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/placeholder.svg?height=800&width=1600"
+            src="/images/fv-about.png"
             alt="About Us Background"
             className="w-full h-full object-cover"
           />

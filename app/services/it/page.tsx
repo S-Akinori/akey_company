@@ -6,6 +6,13 @@ import Link from "next/link"
 import { services, getProjectsByCategory } from "@/lib/data"
 import { getIcon } from "@/lib/icons"
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'ITソリューション',
+  description: '現代のビジネス環境において、ITは単なるツールではなく、競争優位性を生み出す戦略的資産です。 私たちは最新の技術トレンドを常に把握し、お客様のビジネス目標に最適なソリューションを提供します。',
+}
+
 export default function ITSolutionPage() {
   const service = services.services.find((s) => s.id === "it")
   const relatedProjects = getProjectsByCategory("web-works")
